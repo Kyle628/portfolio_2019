@@ -259,3 +259,12 @@ nav h3:hover {
 #trademark {
     height: 200px;
 }
+
+@supports (display:-ms-grid) {
+    /* Edge only */
+  
+    .flex-space-evenly {
+      justify-content: space-around !important;
+      /* you can also add some other adjustments to size, margins etc to get the same positioning */
+    }
+  }
