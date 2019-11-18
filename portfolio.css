@@ -1,0 +1,261 @@
+html h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Roboto';
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+    border: none;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    height: 90px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+nav h3:hover {
+    cursor: pointer;
+}
+
+#me {
+    height: 80px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.almost-full-width {
+    width: 80%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-evenly {
+    justify-content: space-evenly;
+}
+
+.pad-top-sm {
+    padding-top: 10px;
+}
+
+.pad-top-md {
+    padding-top: 25px;
+}
+
+.pad-top-lg {
+    padding-top: 50px;
+}
+
+.pad-bot-sm {
+    padding-bottom: 10px;
+}
+
+.pad-bot-md {
+    padding-bottom: 25px;
+}
+
+.pad-bot-lg {
+    padding-bottom: 50px;
+}
+
+.pad-all-sm {
+    padding: 5 5 5 5;
+}
+
+.pad-all-md {
+    padding: 25 25 25 25;
+}
+
+.pad-all-lg {
+    padding: 50 50 50 50;
+}
+
+.pad-right-sm {
+    padding-right: 10px;
+}
+
+.pad-right-md {
+    padding-right: 25px;
+}
+
+.pad-right-lg {
+    padding-right: 50px;
+}
+
+.pad-left-sm {
+    padding-left: 10px;
+}
+
+.pad-left-md {
+    padding-left: 25px;
+}
+
+.pad-left-lg {
+    padding-left: 50px;
+}
+
+.no-margins {
+    margin: 0;
+}
+
+#logo_container {
+    width: 25%;
+}
+
+#me_working {
+    background-image: url(./img/me_working.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: left;
+    background-size: cover;
+}
+
+#surf_journal_mockup {
+    background-image: url(./img/surfjournalmockup.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#surfjournal_section p{
+    max-width: 300px;
+}
+
+#hasi_mockup {
+    background-image: url(./img/hasi_mockup.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#hasi_section p{
+    max-width: 300px;
+}
+
+.light_bottom_border {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(238, 238, 238);
+}
+
+.active {
+    border: 3px;
+    border-color: orange;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#chess_mockup {
+    background-image: url(./img/chess_mockup.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+#chess_section p{
+    max-width: 300px;
+}
+
+#gorilla_mockup {
+    background-image: url(./img/gorilla_mockup.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+#gorilla_section p{
+    max-width: 300px;
+}
+
+#gapsort_mockup {
+    background-image: url(./img/gapsort_mockup.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+#gapsort_section p{
+    max-width: 300px;
+}
+
+#quilt_mockup {
+    background-image: url(./img/quilt_mockup.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#quilt_section p{
+    max-width: 300px;
+}
+
+#jcal_mockup {
+    background-image: url(./img/jcaldemo.gif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#jcal_section p{
+    max-width: 300px;
+}
+
+#craps_mockup {
+    background-image: url(./img/crapsdemo.gif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#craps_section p{
+    max-width: 300px;
+}
+
+#connect_mockup {
+    background-image: url(./img/connectdemo.gif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#connect_section p{
+    max-width: 300px;
+}
+
+#trademark {
+    height: 200px;
+}

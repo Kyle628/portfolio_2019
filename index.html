@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>Kyle O'Connor</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">    
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="./portfolio.css" rel="stylesheet">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://use.fontawesome.com/5832add47d.js"></script> 
+    </head>
+
+<nav class="flex-row full-width flex-space-between">
+    <img class="pad-left-md" id="me" src="./img/me.png">
+    <div class="flex-col flex-end">
+        <h1 style="margin-bottom: -5px;">Kyle O'Connor</h1>
+        <small>Software Engineer</small>
+    </div>
+    <div class="flex-col flex-end">
+        <h3 class="active">Projects</h3>
+    </div>
+    <div class="flex-col flex-end">
+        <a href="./Kyle Oconnor Resume.pdf"><h3>Resume</h3></a>
+    </div>
+    <div class="flex-col flex-end pad-right-md">
+        <h3 data-toggle="modal" data-target="#contactModal">Contact</h3>
+    </div>  
+</nav>
+
+<body>
+    <div id="me_working">
+    </div>
+    <div class="flex-row full-width flex-center">
+        <div class="flex-row almost-full-width flex-center pad-top-lg pad-bot-lg light_bottom_border">
+            <div class="flex-col flex-center">
+                <h1>Projects</h1>
+                <!--<i class="fab fa-github"></i>-->
+            </div>
+        </div>
+    </div>
+
+    <div id="surfjournal_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div id="surf_journal_mockup" class="half-width">
+        </div>
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>SurfJournal</h3>
+            </div>
+            <p><a href="https://surfjournal.surf">Surfjournal</a> makes it easy for surfers to never forget a session. Surfjournal is hooked into Surfline's API, so that swell and wind conditions are automatically attached to journal entries.</p>
+            <p><b>Tech Used:</b> HTML, CSS, Javascript, PHP, Bootstrap, Apache, MySQL, AWS</p>
+        </div>
+    </div>
+
+    <div id="hasi_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>Häsi</h3>
+            </div>
+            <p><a href="https://kyle628.github.io/hasi_sample/">Häsi</a> is an artisanal bakery based in Los Angeles. Most of their customers are drawn from instagram, so careful attention was put into making this site mobile-first and responsive at all screen sizes.</p>
+            <p><b>Tech Used:</b> HTML, CSS, Javascript, Bootstrap</p>
+        </div>
+        <div id="hasi_mockup" class="half-width">
+        </div>
+    </div>
+
+    <div id="chess_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div id="chess_mockup" class="half-width">
+        </div>
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>Wizard's Chess</h3>
+            </div>
+            <p><a href="https://kyle628.github.io/Wizard_Chess/index.html">Wizard's Chess</a> is a just a plain game of chess. I made this with a friend, because we were curious if we could make a game with javascript alone, and we both like chess.</p>
+            <p><b>Tech Used:</b> HTML, Javascript, p5.js</p>
+        </div>
+    </div>
+
+    <div id="gorilla_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>Gorilla Escape</h3>
+            </div>
+            <p>Gorilla Escape is a 2d mobile platformer, where you play as an escaped gorilla evading capture. I made this game using the Unity game engine.</p>
+            <p><b>Tech Used: </b>C#, Unity</p>
+        </div>
+        <div id="gorilla_mockup" class="half-width">
+        </div>
+    </div>
+
+    <div id="gapsort_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div id="gapsort_mockup" class="half-width">
+        </div>
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>GapSort</h3>
+            </div>
+            <p>Gapsort is a group organizational tool that takes in a group's combined schedule, and returns times when all group members are available.</p>
+            <p><b>Tech Used: </b>Python, HTML, CSS, Javascript, Web2py, SQLite</p>
+        </div>
+    </div>
+
+    <div id="quilt_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>Quilt</h3>
+            </div>
+            <p>Quilt is an infinitely scrolling image quilt, made of user contributed images. Together, the stitched images create a single piece of art.</p>
+            <p><b>Tech Used: </b>Python, HTML, CSS, Javascript, Web2py, SQLite</p>
+        </div>
+        <div id="quilt_mockup" class="half-width">
+        </div>
+    </div>
+
+    <div id="jcal_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div id="jcal_mockup" class="half-width">
+        </div>
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>JCAL Clone</h3>
+            </div>
+            <p>This is a clone of the JCAL unix program, that functions as a simple command-line calendar.</p>
+            <p><b>Tech Used: </b>Java</p>
+        </div>
+    </div>
+
+    <div id="craps_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>Craps Game</h3>
+            </div>
+            <p>This is a simple command-line version of the game Craps.</p>
+            <p><b>Tech Used: </b>Java</p>
+        </div>
+        <div id="craps_mockup" class="half-width">
+        </div>
+    </div>
+    <div id="connect_section" class="flex-row full-width pad-top-lg pad-bot-lg flex-space-evenly light_bottom_border">
+        <div id="connect_mockup" class="half-width">
+        </div>
+        <div class="flex-col flex-center">
+            <div class="flex-row flex-center">
+                <h3>Connect 5 Game</h3>
+            </div>
+            <p>This is a command-line version of the game Connect 5.</p>
+            <p><b>Tech Used: </b>Python</p>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div id="trademark" class="flex-row full-width flex-center">
+        <div class="flex-col flex-center">
+            <p>Kyle O'Connor © 2019</p>
+        </div>  
+    </div>
+</footer>
+
+    <!-- Modal -->
+<div id="contactModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Contact Me</h4>
+            </div>
+            <div class="modal-body">
+              <a href="mailto:kyjoconn@gmail.com">kyjoconn@gmail.com</a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+</html>
